@@ -28,7 +28,7 @@ RSpec.describe "Hotel Show Page" do
 
       expect(page).to_not have_content("Hotel Name: Echo Mountain Inn")
       expect(page).to_not have_content("Guests: Charlize Theron")
-      save_and_open_page
+      # save_and_open_page
     end
   end
 end
